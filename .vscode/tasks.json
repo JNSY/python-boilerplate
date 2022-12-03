@@ -12,9 +12,24 @@
       "command": "mypy src"
     },
     {
+      "label": "静的解析実行",
+      "type": "shell",
+      "command": "flake8"
+    },
+    {
       "label": "全ファイルフォーマット",
       "type": "shell",
       "command": "black ."
+    },
+    {
+      "label": "パッケージインストール(本番環境)",
+      "type": "shell",
+      "command": "pipenv install"
+    },
+    {
+      "label": "パッケージインストール(開発環境)",
+      "type": "shell",
+      "command": "pipenv install --dev"
     },
     {
       "label": "requirements出力",

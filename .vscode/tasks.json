@@ -4,7 +4,12 @@
     {
       "label": "メイン関数実行",
       "type": "shell",
-      "command": "python main.py"
+      "command": "python src/main.py"
+    },
+    {
+      "label": "型チェック実行",
+      "type": "shell",
+      "command": "mypy src"
     },
     {
       "label": "全ファイルフォーマット",

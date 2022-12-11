@@ -4,7 +4,7 @@
     {
       "label": "メイン関数実行",
       "type": "shell",
-      "command": "python src/main.py"
+      "command": "poetry run python src/main.py"
     },
     {
       "label": "型チェック実行",
@@ -24,12 +24,7 @@
     {
       "label": "パッケージインストール(本番環境)",
       "type": "shell",
-      "command": "pipenv install"
-    },
-    {
-      "label": "パッケージインストール(開発環境)",
-      "type": "shell",
-      "command": "pipenv install --dev"
+      "command": "poetry install"
     },
     {
       "label": "requirements出力",
